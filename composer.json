@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "socket\\": "socket/",
+            "socket\\client\\": "socket/client",
+            "socket\\server\\": "socket/server",
+            "cache\\": "cache"
+        }
+    },
+  "require": {
+    "ext-apcu": "*",
+    "ext-sockets": "*",
+    "ext-json": "*"
+  },
+  "name": "",
+  "description": ""
+}
